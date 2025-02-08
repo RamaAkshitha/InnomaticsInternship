@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 9px;
+    background-color: rgb(230,49,53);
+}
+.nav1 button{
+    margin-left: 1rem;
+    background-color: black;
+    border: solid 2px white;
+    color: white;
+    width: 200px; 
+    padding: 0.3rem 9px;
+    border-radius: 10px;
+    cursor: pointer; font-size: 15px;
+}
+.nav1 button:hover{
+    border: none;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 6px;
+}
+.logo img{
+    width: 320px;
+    margin-left: 2rem;
+}
+.navlink a{
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px; font-size: 18px;
+}
+.navlink a:hover{
+    background-color: rgb(230,49,53);
+    color: white;
+    padding: 0.7rem 1rem;
+}
+.navlink button{
+    width: 120px;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#home img{
+    width: 100%;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    padding: 2rem;
+}
+.card {
+    flex: 1; 
+    padding: 20px;
+    border-radius: 10px;
+}
+.card h1{
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+.card p{
+    text-align: justify;
+    word-spacing: 5px;
+    font-size: 17px; line-height: 25px; margin-bottom: 28px;
+}
+button{
+    width: 120px;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #E63135;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.card h2{
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center; color: #03045E; padding: 1rem;
+}
+.card2{
+    width: 250px;
+    padding: 2rem;
+    height: 180px;
+    box-shadow: 0 4px 1px rgba(92, 87, 87, 0.2);
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.card2 h3{
+    font-size: 20px; color: #03045E;
+    text-align: center;
+}
+.card2:hover{
+    box-shadow:0 4px 0 #E63135;
+}
+.third{
+    background-color: black;
+}
+.third .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 12px 7rem;
+}
+.third h2{
+    padding: 2rem 0 2rem; font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.third .card3{
+    border: 1px solid white; 
+    border-radius: none;
+    max-width: 300px; 
+    min-height: 510px;
+}
+.third .card3 p{
+    padding: 1rem;
+    color: white;
+    word-spacing: normal; text-align: center;
+}
+.third .card3 img{
+    width: 100%;
+}
+.card3 span{
+    font-size: 23px;
+}
+.card3 button{
+    background-color: black;
+    border-radius: none;
+    border: 1px solid white;
+}
