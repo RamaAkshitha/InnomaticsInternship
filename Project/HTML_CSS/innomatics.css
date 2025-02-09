@@ -125,8 +125,7 @@ button{
     box-shadow:0 4px 0 #E63135;
 }
 .third{
-    background-color: black;
-}
+    background-color: black;}
 .third .flex{
     display: flex;
     justify-content: center;
@@ -140,6 +139,10 @@ button{
     text-align: center;
 }
 .third .card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid white; 
     border-radius: none;
     max-width: 300px; 
@@ -151,13 +154,21 @@ button{
     word-spacing: normal; text-align: center;
 }
 .third .card3 img{
+    
     width: 100%;
 }
 .card3 span{
     font-size: 23px;
 }
-.card3 button{
+.third .card3 input{
+    width: 120px;
+    height: 2rem;
+    color: white;
     background-color: black;
     border-radius: none;
     border: 1px solid white;
+}
+.third .card3 input:hover{
+    background-color: white;
+    color: black;
 }
